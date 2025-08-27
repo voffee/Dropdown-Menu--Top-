@@ -1,0 +1,24 @@
+
+/* Adding root variables */
+:root {
+    /* Ribbon */
+    --ribbon-color: #ED2939;
+
+    /* Generic Black Color (FONT) */
+    --dark-text-color: #36454F;
+
+    /* Page Background Color */
+    --page-background-color: #F0F0F0;
+}
+
+/* Global Reset */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
