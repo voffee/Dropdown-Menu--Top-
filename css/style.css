@@ -22,3 +22,33 @@
 body {
 
 }
+
+.ribbon {
+    background-color: var(--ribbon-color);
+    height: 40px;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & .logo {
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+    }
+
+    & .container-ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+    }
+}
+
+ul {
+    list-style: none;
+}
