@@ -51,6 +51,7 @@ body {
         & li {
            color: darkblue; 
            display: inline-block;
+           position: relative;
         }
 
         & li:first-child:hover .dropdown {
@@ -60,6 +61,7 @@ body {
         & .dropdown {
             background-color: cadetblue;
             display: none;
+            position: absolute;
         }
     }
 }
