@@ -39,6 +39,7 @@ body {
         background-color: yellow;
         height: 100px;
         width: 100px;
+        border-radius: 50%;
     }
 
     & .container-ul {
@@ -46,6 +47,20 @@ body {
         flex-direction: row;
         align-items: center;
         /* justify-content: center; */
+
+        & li {
+           color: darkblue; 
+           display: inline-block;
+        }
+
+        & li:first-child:hover .dropdown {
+           display: block;
+        }
+
+        & .dropdown {
+            background-color: cadetblue;
+            display: none;
+        }
     }
 }
 
